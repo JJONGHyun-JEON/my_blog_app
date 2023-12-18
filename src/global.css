@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.black-nav {
+  flex-direction: column;
+  display: fixed;
+  background: black;
+  width: 100%;
+  color: white;
+  /* padding-left: 20px; */
+  padding : 10px;
+}
+
+.First-Div{
+ height: 100vh;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.Second-Div{
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bold;
+  background: #e9ecef;
+}
+
+.emoji-github{
+  background-image: url(./image/git-hub.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.emoji-tistory{
+  background-image: url(./image/tistory.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.emoji-instagram{
+  background-image: url(./image/instagram.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.Footer-div{
+  display: flex;
+  flex-direction: column;
+  background-color: #675D50;
+  width: 100%;
+  height:14vh;
+  align-items: center;
+  justify-content: center;
+  color : white;
+}
+
+.Footer-div2{
+  display: flex;
+  margin-bottom: 10px;
+}
+
