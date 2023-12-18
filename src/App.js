@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='black-nav' style={{position : 'fixed'}}>
+      <div className='black-nav' style={{position : 'fixed'}}> 네비만들어야함 
         <button onClick={() => scrollToRef(aboutRef)}>About Me</button>
         <a onClick={() => scrollToRef(skillRef)}>Skills</a>
         <a onClick={() => scrollToRef(projectRef)}>Project</a>
