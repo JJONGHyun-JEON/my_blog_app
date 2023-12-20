@@ -25,28 +25,24 @@ function App() {
   return (
     <div className='App'>
 
-
       <div className='black-nav' >
         <a style={{textDecorationLine : 'none', marginRight : '700px', color : 'black', fontWeight : 'bold', fontSize : '20px'}} href='/'>JJONG's Blog</a>
         <button style={{marginRight : '13px'}} onClick={() => scrollToRef(aboutRef)}>About Me</button>
         <button style={{marginRight : '13px'}} onClick={() => scrollToRef(skillRef)}>Skills</button>
-        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(projectRef)}>Project</button>
         <button style={{marginRight : '13px'}} onClick={() => scrollToRef(careerRef)}>Career</button>
-        
-        
+        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(projectRef)}>Project</button>
       </div>
       
-
-      <div style={{paddingTop : '10vh'}} className='Second-Div' ref={aboutRef}>
+      <div style={{paddingTop : '9vh'}} className='Second-Div' ref={aboutRef}>
         <About/>
       </div>
-      <div style={{paddingTop : '10vh'}} className='Second-Div' ref={skillRef}>
+      <div style={{paddingTop : '9vh'}} className='Second-Div' ref={skillRef}>
       <Skill/>
       </div>
-      <div style={{paddingTop : '10vh'}} className='Second-Div' ref={projectRef}>
+      <div style={{paddingTop : '9vh'}} className='Second-Div' ref={projectRef}>
       <Project/>
       </div>
-      <div style={{paddingTop : '10vh'}} className='Second-Div' ref={careerRef}>
+      <div style={{paddingTop : '9vh'}} className='Second-Div' ref={careerRef}>
       <Career/>
       </div>
     </div>
