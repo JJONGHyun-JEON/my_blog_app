@@ -5,6 +5,8 @@ export default function Skill() {
                 Skills
                 <div>
                     FrontEnd
+                    <img style={{height : '10vh', width : '10%',}} src={require("file:///C:/Users/j2022/Downloads/javascript-color.svg").default}></img>
+                    밥먹고, 로고 이미지 다 불러오고 없는건 따로 찾고 이미지 경로는 변수로 만들어서 보기 좋게 정리
                 </div>
                 <div>
                     BackEnd

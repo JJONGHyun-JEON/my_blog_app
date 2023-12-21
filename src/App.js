@@ -12,6 +12,7 @@ function App() {
   const skillRef = useRef();
   const projectRef = useRef();
   const careerRef = useRef();
+  const educationRef = useRef();
 
 
   const scrollToRef = (ref) => {
@@ -31,6 +32,7 @@ function App() {
         <button style={{marginRight : '13px'}} onClick={() => scrollToRef(skillRef)}>Skills</button>
         <button style={{marginRight : '13px'}} onClick={() => scrollToRef(careerRef)}>Career</button>
         <button style={{marginRight : '13px'}} onClick={() => scrollToRef(projectRef)}>Project</button>
+        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(educationRef)}>Education</button>
       </div>
       
       <div style={{paddingTop : '9vh'}} className='Second-Div' ref={aboutRef}>
