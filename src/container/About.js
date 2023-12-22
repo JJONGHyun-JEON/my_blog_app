@@ -2,6 +2,12 @@ import React from 'react';
 import '../global.css'
 
 export default function About() {
+
+         // 현재 날짜를 얻어옵니다.
+         const currentDate = new Date();
+
+         // 연도를 얻어옵니다.
+         const currentYear = currentDate.getFullYear();
     return (
         <div>
             <div className='background-ima'>

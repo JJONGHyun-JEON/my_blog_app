@@ -15,7 +15,7 @@ button {
 .black-nav {
   flex-direction: column;
   position: fixed;
-  background: rgb(205, 205, 205);
+  /* background: rgb(205, 205, 205); */
   width: 100%;
   height: 9vh;
   /* color: white; */
@@ -25,16 +25,16 @@ button {
 
 
 .First-Div{
- height: 100vh;
+ height: 91vh;
  font-size: 20px;
  font-weight: bold;
 }
 
 .Second-Div{
-  height: 100vh;
+  height: 91vh;
   font-size: 20px;
   font-weight: bold;
-  background: #e9ecef;
+  /* background: #e9ecef; */
 }
 
 .emoji-github{
@@ -67,6 +67,8 @@ button {
   width: 50px;
 }
 
+
+
 .asd{
     position: absolute;
      top:35%;
@@ -91,12 +93,23 @@ button {
   width: 50px; */
 }
 
+.project-ima{
+  background-image: url(./image/project-ima.jpg);
+  background-position: center;
+  /* object-fit: contain; */
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  /* text-align: center; */
+  /* position: 'relative';  */
+  height: 40vh ;
+}
+
 .Footer-div{
   display: flex;
   flex-direction: column;
   background-color: #675D50;
   width: 100%;
-  height:14vh;
+  height:18vh;
   align-items: center;
   justify-content: center;
   color : white;
@@ -136,4 +149,103 @@ table.type03 td {
   border-bottom: 1px solid black;
 
 
+}
+
+
+
+
+/*skills아이콘 start*/
+.java-icon{
+  background-image: url(./image/java-icon.png);
+  background-size: cover;
+}
+
+.node-icon{
+  background-image: url(./image/node-icon.png);
+  background-size: cover;
+}
+
+.mybatis-icon{
+  background-image: url(./image/mybatis-icon.png);
+  background-size: cover;
+}
+
+.css3-icon{
+  background-image: url(./image/css3-icon.png);
+  background-size: cover;
+}
+
+.html5-icon{
+  background-image: url(./image/html5-icon.png);
+  background-size: cover;
+}
+
+.js-icon{
+  background-image: url(./image/js-icon.png);
+  background-size: cover;
+}
+
+.jquery-icon{
+  background-image: url(./image/jquery-icon.png);
+  background-size: cover;
+}
+
+.react-icon{
+  background-image: url(./image/react-icon.png);
+  background-size: cover;
+}
+
+.redux-icon{
+  background-image: url(./image/redux-icon.png);
+  background-size: cover;
+}
+
+.mysql-icon{
+  background-image: url(./image/mysql-icon.png);
+  background-size: cover;
+}
+
+.mongodb-icon{
+  background-image: url(./image/mongodb-icon.png);
+  background-size: cover;
+}
+
+.express-icon{
+  background-image: url(./image/express-icon.png);
+  background-size: cover;
+}
+
+.next-icon{
+  background-image: url(./image/next-icon.png);
+  background-size: cover;
+}
+
+.flutter-icon{
+  background-image: url(./image/flutter-icon.png);
+  background-size: cover;
+}
+
+.linux-icon{
+  background-image: url(./image/linux-icon.png);
+  background-size: cover;
+}
+
+.springboot-icon{
+  background-image: url(./image/springBoot-icon.png);
+  background-size: cover;
+}
+
+.github-icon{
+  background-image: url(./image/gitHub-icon.png);
+  background-size: cover;
+}
+
+.slack-icon{
+  background-image: url(./image/slack-icon.png);
+  background-size: cover;
+}
+
+.mariadb-icon{
+  background-image: url(./image/mariadb-icon.png);
+  background-size: cover;
 }
