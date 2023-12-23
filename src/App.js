@@ -19,13 +19,16 @@ function App() {
   return (
     <div className='App'>
 
-      <div className='black-nav' >
+      <div className='black-nav'>
         {/* <a style={{textDecorationLine : 'none', marginRight : '700px', color : 'black', fontWeight : 'bold', fontSize : '20px'}} href='/'>JJONG's Blog</a> */}
-        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(aboutRef)}>About Me</button>
-        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(skillRef)}>Skills</button>
-        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(skillRef)}>Career</button>
-        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(skillRef)}>Project</button>
-        <button style={{marginRight : '13px'}} onClick={() => scrollToRef(skillRef)}>Education</button>
+        <div style={{float : 'right'}}>
+        <button className='a-tag' onClick={() => scrollToRef(aboutRef)}>About Me</button>
+        <button className='a-tag' onClick={() => scrollToRef(skillRef)}>Skills</button>
+        <button className='a-tag' onClick={() => scrollToRef(skillRef)}>Career</button>
+        <button className='a-tag' onClick={() => scrollToRef(skillRef)}>Project</button>
+        <button className='a-tag' onClick={() => scrollToRef(skillRef)}>Education</button>
+        </div>
+        
       </div>
       
       <div style={{paddingTop : '9vh'}}  ref={aboutRef}>

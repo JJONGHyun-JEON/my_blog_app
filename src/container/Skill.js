@@ -5,12 +5,12 @@ export default function Skill() {
 
     return (
         <div>
-            <div style={{ width: '50%', height: '100vh', borderTop: '1px solid black', float: 'left', }}>
+            <div style={{ width: '50%', height: '100vh', float: 'left', }}>
                 <h1>Skills</h1>
 
-                <div style={{ marginTop: '25px' }}>
+                <div style={{ marginTop: '25px', fontWeight : 'bold'}}>
                     FrontEnd
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
                         <div style={{ height: '10vh', width: '10%', }} className="css3-icon"></div>
                         <div style={{ height: '10vh', width: '10%', }} className="html5-icon"></div>
                         <div style={{ height: '10vh', width: '10%', }} className="js-icon"></div>
@@ -21,17 +21,17 @@ export default function Skill() {
                     </div>
                 </div>
 
-                <div style={{ marginTop: '20px' }}>
-                    backEnd
+                <div style={{ marginTop: '20px', fontWeight : 'bold' }}>
+                    BackEnd
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-                        <div style={{ height: '10vh', width: '10%', }} className="node-icon"></div>
-                        <div style={{ height: '10vh', width: '10%', }} className="springboot-icon"></div>
-                        <div style={{ height: '10vh', width: '10%', }} className="express-icon"></div>
                         <div style={{ height: '10vh', width: '10%', }} className="java-icon"></div>
+                        <div style={{ height: '10vh', width: '10%', }} className="springboot-icon"></div>
+                        <div style={{ height: '10vh', width: '10%', }} className="node-icon"></div>
+                        <div style={{ height: '10vh', width: '10%', }} className="express-icon"></div>
                     </div>
                 </div>
 
-                <div style={{ marginTop: '20px' }}>
+                <div style={{ marginTop: '20px', fontWeight : 'bold' }}>
                     DevOps/Version Control
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
                         <div style={{ height: '10vh', width: '10%', }} className="github-icon"></div>
@@ -39,7 +39,7 @@ export default function Skill() {
                     </div>
                 </div>
 
-                <div style={{ marginTop: '20px' }}>
+                <div style={{ marginTop: '20px', fontWeight : 'bold' }}>
                     Database
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
                         <div style={{ height: '10vh', width: '10%', }} className="mongodb-icon"></div>
@@ -49,7 +49,7 @@ export default function Skill() {
                     </div>
                 </div>
 
-                <div>
+                <div style={{ marginTop: '20px', fontWeight : 'bold' }}>
                     ETC
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
                         <div style={{ height: '10vh', width: '10%', }} className="slack-icon"></div>
@@ -66,9 +66,9 @@ export default function Skill() {
             </div>
 
 
-            <div style={{ width: '50%', height: '100vh',borderLeft : '1px solid black', borderTop: '1px solid black', float: 'left' }}>
+            <div style={{ width: '50%', height: '100vh', float: 'left' }}>
 
-                <div style={{borderBottom : '1px solid black'}}>
+                <div style={{}}>
                     <h1>
                         Career
                     </h1>
@@ -79,9 +79,9 @@ export default function Skill() {
                     
                 </div>
 
-                <div style={{borderBottom : '1px solid black', marginBottom : '5px'}}>
+                <div style={{ marginBottom : '5px'}}>
                     <h1>
-                        education
+                        Education
                     </h1>
                     <div style={{marginBottom : '15px'}}>
                     비트교육센터<br /> 2022-01 ~ 2022-08<br />

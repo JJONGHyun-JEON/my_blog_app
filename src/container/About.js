@@ -2,22 +2,18 @@ import React from 'react';
 import '../global.css'
 
 export default function About() {
-
-         // 현재 날짜를 얻어옵니다.
-         const currentDate = new Date();
-
-         // 연도를 얻어옵니다.
-         const currentYear = currentDate.getFullYear();
     return (
-        <div>
-            <div className='background-ima'>
+        <div >
+            <div style={{padding : '50px'}} className='background-ima'>
 
-                <div className='asd'>
-                    <h1 style={{ fontWeight: 'bold' }}> - 전종현 -</h1>
+                <div  className='background-text'>
+                    <div style={{ fontWeight: 'bold', fontSize : '40px'}}> - 전종현 -
+                    </div>
                     <p style={{ fontSize: '25px', fontWeight: 'bold' }}>웹 개발자 포트폴리오<br/>ㅡ</p>
                     <div>안녕하세요. <br />웹 풀스택을 지향하는 개발자입니다.<br />
                         저의 블로그를 방문해주셔서 감사합니다.
                     </div>
+                    
                 </div>
             </div>
 
