@@ -3,6 +3,7 @@ import '../global.css'
 
 export default function About() {
     return (
+
         <div >
             <div style={{padding : '50px'}} className='background-ima'>
 
@@ -17,7 +18,7 @@ export default function About() {
                 </div>
             </div>
 
-            <h1 style={{fontWeight : 'bold', marginTop : '15px'}}>
+            <h1 style={{ marginTop : '15px'}}>
                 About Me
             </h1>
 

@@ -37,12 +37,6 @@ function App() {
       <div style={{paddingTop : '9vh'}}  ref={skillRef}>
       <Skill/>
       </div>
-      {/* <div style={{paddingTop : '9vh'}} className='Second-Div' ref={careerRef}>
-      <Project/>
-      </div>
-      <div style={{paddingTop : '9vh'}} className='Second-Div' ref={careerRef}>
-      <Career/>
-      </div> */}
     </div>
   );
 }

@@ -57,12 +57,6 @@ export default function Skill() {
 
                     </div>
                 </div>
-
-                {/* <div>
-                    Mobile
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-                    </div>
-                </div> */}
             </div>
 
 
